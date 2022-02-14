@@ -14,8 +14,6 @@ public class LoginPage {
     @FindBy(id="prependedInput")
     public WebElement userName;
 
-
-
     @FindBy(id="prependedInput2")
     public WebElement password;
 
@@ -29,6 +27,6 @@ public class LoginPage {
         submit.click();
         // verification that we logged
     }
-    //BREAK UNTIL 12:10
+
 
 }
