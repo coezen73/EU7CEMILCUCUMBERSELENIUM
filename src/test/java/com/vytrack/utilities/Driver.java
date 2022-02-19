@@ -70,7 +70,7 @@ public class Driver {
                     ChromeOptions chromeOptions = new ChromeOptions();
                     chromeOptions.setCapability("platform", Platform.ANY);
                     try {
-                        driverPool.set(new RemoteWebDriver(new URL("http://3.236.102.181:4444/wd/hub"),chromeOptions));
+                        driverPool.set(new RemoteWebDriver(new URL("http:// http://184.72.102.39:8081//wd/hub"),chromeOptions));
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }

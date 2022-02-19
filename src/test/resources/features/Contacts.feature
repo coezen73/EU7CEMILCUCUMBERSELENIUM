@@ -1,12 +1,12 @@
 Feature: Contacts page
-
+  @wip
   Scenario:Default page number
     Given the user is on the login page
     And the user enters the driver information
     When the user navigates to "Customers" "Contacts"
     Then default page number should be 1
 
-
+  @wip
   Scenario: Verify Create Calender Event
     Given the user is on the login page
     And the user enters the sales manager information
@@ -45,7 +45,7 @@ Feature: Contacts page
       | lastname  | Schneider   |
     Then the user should be able to login
 
-  @wip
+
   Scenario Outline: login as a given user <user>
     Given the user is on the login page
     When the user logs in using following credentials
